@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2edd8517-1ac7-425b-86f0-ba58403a95b8">
+  <name>ПособиеДляНачинающих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пособие для начинающих</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="24fdd902-ca4b-4533-aa13-2898babf180d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2410c167-514a-47e3-a5b7-df70f7c268f7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="072532ee-05f6-445c-8cb1-e4c43d61781c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0a168dee-35b3-443c-be7c-aac13b03dcd9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c2786148-fc1e-4cd7-8a98-3c773424c6af"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2237b4b1-b3fa-47fa-9a7d-f9a6c8690ce7"/>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="4e6f9238-dacc-4256-b891-f9c6d4546d5a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <subsystems>Subsystem.Оказание_услуг</subsystems>
+  <subsystems>Subsystem.Бугалтерия</subsystems>
+  <subsystems>Subsystem.Расчет_зарплаты</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ОказаниеУслуги</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.Материалы</reports>
+  <reports>Report.РеестрДокументовОказаниеУслуги</reports>
+  <reports>Report.РейтингУслуг</reports>
+  <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ПереченьУслуг</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
